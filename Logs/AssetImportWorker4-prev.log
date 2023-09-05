@@ -1,0 +1,459 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.2f1 (d74737c6db50) revision 14108471'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 32689 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/bosst/Documents/GitHub/SnakeGame
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+54399
+Successfully changed project path to: C:/Users/bosst/Documents/GitHub/SnakeGame
+C:/Users/bosst/Documents/GitHub/SnakeGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10292] Host "[IP] 192.168.100.60 [Port] 0 [Flags] 2 [Guid] 3303971937 [EditorId] 3303971937 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5K0KTD2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [10292] Host "[IP] 192.168.100.60 [Port] 0 [Flags] 2 [Guid] 3303971937 [EditorId] 3303971937 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5K0KTD2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 8.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.2f1 (d74737c6db50)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/bosst/Documents/GitHub/SnakeGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 Ti (ID=0x2208)
+    Vendor:   NVIDIA
+    VRAM:     12100 MB
+    Driver:   31.0.15.3699
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010111 seconds.
+- Loaded All Assemblies, in  0.264 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.198 seconds
+Domain Reload Profiling: 460ms
+	BeginReloadAssembly (70ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (105ms)
+		LoadAssemblies (68ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (100ms)
+			TypeCache.Refresh (99ms)
+				TypeCache.ScanAssembly (91ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (198ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (155ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\bosst\Documents\GitHub\SnakeGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\bosst\Documents\GitHub\SnakeGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.532 seconds
+Refreshing native plugins compatible for Editor in 2.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.380 seconds
+Domain Reload Profiling: 909ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (361ms)
+		LoadAssemblies (200ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (208ms)
+			TypeCache.Refresh (196ms)
+				TypeCache.ScanAssembly (187ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (380ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (275ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (195ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3070 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3539.
+Memory consumption went from 116.9 MB to 116.8 MB.
+Total: 2.466500 ms (FindLiveObjects: 0.207800 ms CreateObjectMapping: 0.074500 ms MarkObjects: 2.101400 ms  DeleteObjects: 0.082300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 196186.604055 seconds.
+  path: Assets/SimpleEnviroment/Models/snakes/limousine
+  artifactKey: Guid(d7ea7ce06f06e6d458a3925d443189a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleEnviroment/Models/snakes/limousine using Guid(d7ea7ce06f06e6d458a3925d443189a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0975422146f64dc083781e432693cc71') in 0.002134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.053864 seconds.
+  path: Assets/SimpleEnviroment/Models/snakes/limousine/limousine_body.FBX
+  artifactKey: Guid(4189d51eb584e80478a11755e3f53aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleEnviroment/Models/snakes/limousine/limousine_body.FBX using Guid(4189d51eb584e80478a11755e3f53aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a86ec161aeaf8cd2849071b607193b') in 0.101098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 2.440073 seconds.
+  path: Assets/SimpleEnviroment/Models/snakes/menu_animations
+  artifactKey: Guid(b7b67c8b62442144590aeacaa1c7df38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleEnviroment/Models/snakes/menu_animations using Guid(b7b67c8b62442144590aeacaa1c7df38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef67c470007d2549534e09d039c7e92') in 0.000439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.281377 seconds.
+  path: Assets/SimpleEnviroment/Models/snakes/green_snake/textures
+  artifactKey: Guid(b0a16c0e5f3b7004bb9b47208f1c5e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleEnviroment/Models/snakes/green_snake/textures using Guid(b0a16c0e5f3b7004bb9b47208f1c5e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8788b6b44ae6ba2d7a95350c5bfd3977') in 0.000384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.051595 seconds.
+  path: Assets/SimpleEnviroment/Models/snakes/green_snake/textures/green_snake.png
+  artifactKey: Guid(643f73b205dec9942a8497320144167a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleEnviroment/Models/snakes/green_snake/textures/green_snake.png using Guid(643f73b205dec9942a8497320144167a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d699a0b46d9f2f28977eb4f48fae57') in 0.026201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/SimpleEnviroment/Models/snakes/green_snake/textures/green_snake_tail_soft_shadow.tga
+  artifactKey: Guid(ac8c92b5a77a0194bba8efd3a47c0fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleEnviroment/Models/snakes/green_snake/textures/green_snake_tail_soft_shadow.tga using Guid(ac8c92b5a77a0194bba8efd3a47c0fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248b5505cd5efe76ddf9c95acbbea96d') in 0.031522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 25.860644 seconds.
+  path: Assets/SimpleEnviroment/Scripts
+  artifactKey: Guid(77ab787d5607e4ca7b1b4a32e2f5fa55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleEnviroment/Scripts using Guid(77ab787d5607e4ca7b1b4a32e2f5fa55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6672e97e741259dc5cbe7fc1d5549af1') in 0.000475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.062486 seconds.
+  path: Assets/SimpleEnviroment/Scripts/SceneManager.cs
+  artifactKey: Guid(fbce3c0cf75634ac99196c7fbc8328fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleEnviroment/Scripts/SceneManager.cs using Guid(fbce3c0cf75634ac99196c7fbc8328fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e593368b5ba433703e69b84500ef81e') in 0.000421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.517848 seconds.
+  path: Assets/SimpleEnviroment/Scripts/Storage.cs
+  artifactKey: Guid(bc5b44943868d419f969951d9fb1b603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleEnviroment/Scripts/Storage.cs using Guid(bc5b44943868d419f969951d9fb1b603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84189e55a62e6aefdd7d31d6ac7d7592') in 0.000401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.917694 seconds.
+  path: Assets/SimpleEnviroment/Scripts/BasicAnimator.cs
+  artifactKey: Guid(dfd8f6dcf8fa94aa5a4a027ae06547c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleEnviroment/Scripts/BasicAnimator.cs using Guid(dfd8f6dcf8fa94aa5a4a027ae06547c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3128f3bc1b58c09a48d993191ed0ed') in 0.000402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.195282 seconds.
+  path: Assets/SimpleEnviroment/Game/enviroment_scene
+  artifactKey: Guid(3567965986a38437c80d09242f39cb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleEnviroment/Game/enviroment_scene using Guid(3567965986a38437c80d09242f39cb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48a1f221a3675dfa66887c1f165b066') in 0.000386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.082875 seconds.
+  path: Assets/SimpleEnviroment/Game/enviroment_scene/LightingData.asset
+  artifactKey: Guid(9b2bc2fd494cf4f8387e1dddee91f860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleEnviroment/Game/enviroment_scene/LightingData.asset using Guid(9b2bc2fd494cf4f8387e1dddee91f860) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is inconsistent because 1 files out of 4 are missing. Please use Generate Lighting to rebuild the lighting data.
+ -> (artifact id: 'bae615b8ab944dc9180ba8bd3b6aaae1') in 0.001288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.507624 seconds.
+  path: Assets/SimpleEnviroment/Game/enviroment_scene.unity
+  artifactKey: Guid(30b390ea142c14fd1941962950e2679e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleEnviroment/Game/enviroment_scene.unity using Guid(30b390ea142c14fd1941962950e2679e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb3a8646769aa4161f1fdae9cdaedc5') in 0.000412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 41.762421 seconds.
+  path: Assets/SimpleEnviroment/Models/snakes/green_snake/Materials
+  artifactKey: Guid(48a1b141d1e5a1841ade09d91ef6f268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleEnviroment/Models/snakes/green_snake/Materials using Guid(48a1b141d1e5a1841ade09d91ef6f268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332393c610e51a1d1e9145705a942b11') in 0.000370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.079781 seconds.
+  path: Assets/SimpleEnviroment/Models/snakes/green_snake/Materials/green_snake.mat
+  artifactKey: Guid(1e3bfc8a1d5eb864b87464ba0b7ee714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleEnviroment/Models/snakes/green_snake/Materials/green_snake.mat using Guid(1e3bfc8a1d5eb864b87464ba0b7ee714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af525266a0873c84787004236a076d9') in 0.027178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SimpleEnviroment/Models/snakes/green_snake/Materials/green_snake_tail_soft_shadow.mat
+  artifactKey: Guid(741a3df6d4d0faa4792c769f726c5b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleEnviroment/Models/snakes/green_snake/Materials/green_snake_tail_soft_shadow.mat using Guid(741a3df6d4d0faa4792c769f726c5b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb1e61e11dd4efd0770d7f8319f11ea') in 0.013128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 231.188391 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground7
+  artifactKey: Guid(5cb94e6cdcd5e824cb221bc3992b1bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground7 using Guid(5cb94e6cdcd5e824cb221bc3992b1bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd01de4484edb13b9b1b14b483827fad') in 0.000513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.066959 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground7/ground7.mat
+  artifactKey: Guid(9b2d9ffb6a28d244e8e9025b4a87f779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground7/ground7.mat using Guid(9b2d9ffb6a28d244e8e9025b4a87f779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41df680501efec6983de72f542f508a6') in 0.089711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground7/ground7_Height.tga
+  artifactKey: Guid(7675b323e40eb7d448be59ef94396cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground7/ground7_Height.tga using Guid(7675b323e40eb7d448be59ef94396cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af93f84700c5502c739947a03f49b387') in 0.052380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground7/ground7_Metallic.tga
+  artifactKey: Guid(e9d30098b0fc07a4887f73b87ad656f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground7/ground7_Metallic.tga using Guid(e9d30098b0fc07a4887f73b87ad656f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af4de4cb699ec27879022e2b947b424') in 0.064525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground7/ground7_Normal.tga
+  artifactKey: Guid(772b522eb070d9c4fa30ce003900a485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground7/ground7_Normal.tga using Guid(772b522eb070d9c4fa30ce003900a485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a854c027bd7c2470a94ea177b485e5d2') in 0.081042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.018330 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground6
+  artifactKey: Guid(3a34bbf059f23be4cbd12e4f40ca0ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground6 using Guid(3a34bbf059f23be4cbd12e4f40ca0ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ecf4cb4dc277e6cec1887b17936c8ef') in 0.000478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 112.178753 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.000369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.290831 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(40192be1a6d729341a5d68ba16352916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(40192be1a6d729341a5d68ba16352916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fca2e74848a440ced7ef900f277fd3c') in 0.000391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.863804 seconds.
+  path: Assets/Prefabs/Floor.prefab
+  artifactKey: Guid(3cd56a878c9f15944878ebc1ee985b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Floor.prefab using Guid(3cd56a878c9f15944878ebc1ee985b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5403aa2d2767a9a6f73acdeddee830') in 0.018074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 6.762257 seconds.
+  path: Assets/Prefabs/Snake.prefab
+  artifactKey: Guid(b8986c72e5aa81148b9487c586a37989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Snake.prefab using Guid(b8986c72e5aa81148b9487c586a37989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e910aa78a40f1b7f570debf3c123091d') in 0.014652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 124.399344 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(3e8cc6f87a339ef4d9e3673a28338c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(3e8cc6f87a339ef4d9e3673a28338c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9b87f7f7534a7d45df03dc453d5aba') in 0.000447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.750372 seconds.
+  path: Assets/SimpleEnviroment/Models/game_objects
+  artifactKey: Guid(90d49579026ff483db801ac71b183af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleEnviroment/Models/game_objects using Guid(90d49579026ff483db801ac71b183af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f71d51a4ebd185511a62ea9577e835') in 0.000400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.469112 seconds.
+  path: Assets/SimpleEnviroment/Models/theme_forest
+  artifactKey: Guid(00e83b0ed1f994b31a76aa87831870c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleEnviroment/Models/theme_forest using Guid(00e83b0ed1f994b31a76aa87831870c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4d534f27ce0d319d321adf92e04097') in 0.000385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.492904 seconds.
+  path: Assets/SimpleEnviroment/Models/theme_forest/death_floor
+  artifactKey: Guid(725dbbef04d690646a692ff0532397ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleEnviroment/Models/theme_forest/death_floor using Guid(725dbbef04d690646a692ff0532397ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9271b71f957ea6000c0c05064974823d') in 0.000390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.072651 seconds.
+  path: Assets/SimpleEnviroment/Models/theme_forest/death_floor/1x1_death_floor.FBX
+  artifactKey: Guid(d3c082faa6cbc8e4c9496c13b4d228bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleEnviroment/Models/theme_forest/death_floor/1x1_death_floor.FBX using Guid(d3c082faa6cbc8e4c9496c13b4d228bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1648ff52aa6a63d08cecf940128d672b') in 0.210463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SimpleEnviroment/Models/theme_forest/death_floor/1x1_death_floor_end.FBX
+  artifactKey: Guid(bef5f35c2a2c0b949a9e6b3c63548fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleEnviroment/Models/theme_forest/death_floor/1x1_death_floor_end.FBX using Guid(bef5f35c2a2c0b949a9e6b3c63548fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73f92952bfd57ea7fc845f20ba99144') in 0.025457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 4.771994 seconds.
+  path: Assets/SimpleEnviroment/Models/general
+  artifactKey: Guid(1cb3e38fb0f6f2848b1333b3f0e77f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleEnviroment/Models/general using Guid(1cb3e38fb0f6f2848b1333b3f0e77f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb4db36b3c57dda1dbf749280611341') in 0.000449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.263141 seconds.
+  path: Assets/SimpleEnviroment/Models/glow_plane
+  artifactKey: Guid(2b2ddd1bb9e114046ae6a9583d8a4b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleEnviroment/Models/glow_plane using Guid(2b2ddd1bb9e114046ae6a9583d8a4b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b8cd54f2d20bee0e723a0f90c3372a') in 0.000402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 147.347959 seconds.
+  path: Assets/Prefabs/Body.prefab
+  artifactKey: Guid(22fa20498f7aefe4eb2c7181c0b1bd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Body.prefab using Guid(22fa20498f7aefe4eb2c7181c0b1bd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749d635bb5273f216bd69131b78e969b') in 0.018329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
