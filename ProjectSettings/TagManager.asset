@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Obstacles
   - Fruit
+  - Apple
+  - Pear
+  - Orange
   layers:
   - Default
   - TransparentFX

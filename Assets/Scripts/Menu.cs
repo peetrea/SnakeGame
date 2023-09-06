@@ -36,6 +36,7 @@ public class Menu : MonoBehaviour
     public void PlayGame()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("Level 1");
+        GlobalManager.Instance.score = 10;
     }
 
     public void ExitGame()

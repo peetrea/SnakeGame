@@ -9,6 +9,9 @@ public class SnakeController : MonoBehaviour {
     public float SteerSpeed = 180;
     public float BodySpeed = 5;
     public int Gap = 10;
+    public int appleScore;
+    public int pearScore;
+    public int orangeScore;
 
     // References
     public GameObject BodyPrefab;
@@ -70,11 +73,24 @@ public class SnakeController : MonoBehaviour {
             Debug.LogError("GameOver");
         }
 
-        if (other.CompareTag("Fruit"))
+        if (other.CompareTag("Apple"))
         {
-            GlobalManager.Instance.score--;
+            GlobalManager.Instance.score -= appleScore;
             Destroy(other.gameObject);
-            
+        }
+        if (other.CompareTag("Pear"))
+        {
+            GlobalManager.Instance.score -= pearScore;
+            Destroy(other.gameObject);
+        }
+        if (other.CompareTag("Orange"))
+        {
+            GlobalManager.Instance.score -= orangeScore;
+            Destroy(other.gameObject);
+        }
+        if(GlobalManager.Instance.score <= 0)
+        {
+            Debug.LogError("WIN");
         }
     }
 }

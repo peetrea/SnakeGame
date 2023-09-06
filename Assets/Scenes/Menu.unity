@@ -2171,7 +2171,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 966992934}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 268063182}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: PlayGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &966992934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2353,6 +2365,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2f2adc631a9bf24bb6d92406c8d2432, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
+  appleScore: 1
+  pearScore: 2
+  orangeScore: 3
 --- !u!1 &1341473747
 GameObject:
   m_ObjectHideFlags: 0
@@ -2873,7 +2889,7 @@ GameObject:
   - component: {fileID: 1547088274}
   - component: {fileID: 1547088273}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

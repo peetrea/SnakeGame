@@ -378,7 +378,7 @@ GameObject:
   - component: {fileID: 2398541892775853306}
   m_Layer: 9
   m_Name: Fruit_Pear
-  m_TagString: Fruit
+  m_TagString: Pear
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

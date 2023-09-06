@@ -7,6 +7,7 @@ public class GlobalManager : MonoBehaviour
     public static GlobalManager Instance { get; private set; }
     public int score;
 
+
     private void Awake()
     {
         if (Instance == null)
@@ -21,4 +22,3 @@ public class GlobalManager : MonoBehaviour
         Debug.Log(score);
     }
 }
-
