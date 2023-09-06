@@ -64,15 +64,15 @@ public class SnakeController : MonoBehaviour {
         BodyParts.Add(body);
     }
     private void OnTriggerEnter(Collider other)
-{
-    if (other.CompareTag("Obstacles"))
     {
-        Debug.LogError("GameOver");
-    }
+        if (other.CompareTag("Obstacles"))
+        {
+            Debug.LogError("GameOver");
+        }
 
-    if (other.CompareTag("Fruit"))
-    {
-        Destroy(other.gameObject);
+        if (other.CompareTag("Fruit"))
+        {
+            Destroy(other.gameObject);
+        }
     }
-}
 }
