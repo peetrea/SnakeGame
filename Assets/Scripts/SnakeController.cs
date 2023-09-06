@@ -17,8 +17,8 @@ public class SnakeController : MonoBehaviour {
     private List<GameObject> BodyParts = new List<GameObject>();
     private List<Vector3> PositionsHistory = new List<Vector3>();
 
-    // Start is called before the first frame update
-    void Start() {
+    void Start() 
+    {
         GrowSnake();
         GrowSnake();
         GrowSnake();
@@ -26,14 +26,14 @@ public class SnakeController : MonoBehaviour {
         GrowSnake();
     }
 
-    // Update is called once per frame
-    void Update() {
+    void Update() 
+    {
 
         // Move forward
         transform.position += transform.forward * MoveSpeed * Time.deltaTime;
 
         // Steer
-        float steerDirection = Input.GetAxis("Horizontal"); // Returns value -1, 0, or 1
+        float steerDirection = Input.GetAxis("Horizontal");
         transform.Rotate(Vector3.up * steerDirection * SteerSpeed * Time.deltaTime);
 
         // Store position history
@@ -41,7 +41,8 @@ public class SnakeController : MonoBehaviour {
 
         // Move body parts
         int index = 0;
-        foreach (var body in BodyParts) {
+        foreach (var body in BodyParts) 
+        {
             Vector3 point = PositionsHistory[Mathf.Clamp(index * Gap, 0, PositionsHistory.Count - 1)];
 
             // Move body towards the point along the snakes path
@@ -55,10 +56,18 @@ public class SnakeController : MonoBehaviour {
         }
     }
 
-    private void GrowSnake() {
+    private void GrowSnake() 
+    {
         // Instantiate body instance and
         // add it to the list
         GameObject body = Instantiate(BodyPrefab);
         BodyParts.Add(body);
     }
+    private void OnTriggerEnter(Collider other)
+{
+    if (other.CompareTag("Obstacles"))
+    {
+        Debug.LogError("GameOver");
+    }
+}
 }
