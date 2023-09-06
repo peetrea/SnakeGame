@@ -7025,8 +7025,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1457279280}
+  - component: {fileID: 1457279281}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Fruits
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7047,6 +7048,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1457279281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1457279279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa53e09f0137eac4fb53a60f45733b31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  applePrefab: {fileID: 6920020660625511850, guid: c4ac7831ba5d91c46a76aaa9cb1ec40f,
+    type: 3}
+  pearPrefab: {fileID: 8326873016630378793, guid: 93771b35d67625549b20dcd6e7ce25e1,
+    type: 3}
+  orangePrefab: {fileID: 2208889420629403332, guid: b32eaee510513aa4a929b1c6922cdbdd,
+    type: 3}
+  spawnInterval: 3
+  spawnRadius: 0
 --- !u!1 &1490761997
 GameObject:
   m_ObjectHideFlags: 0

@@ -69,5 +69,10 @@ public class SnakeController : MonoBehaviour {
     {
         Debug.LogError("GameOver");
     }
+
+    if (other.CompareTag("Fruit"))
+    {
+        Destroy(other.gameObject);
+    }
 }
 }

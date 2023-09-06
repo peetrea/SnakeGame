@@ -177,7 +177,7 @@ GameObject:
   - component: {fileID: 1381387629763864680}
   m_Layer: 9
   m_Name: fruit_pear
-  m_TagString: Untagged
+  m_TagString: Fruit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -376,9 +376,10 @@ GameObject:
   - component: {fileID: 9134405446606597999}
   - component: {fileID: 4881471989282820191}
   - component: {fileID: 6246779285850571380}
+  - component: {fileID: 2398541892775853306}
   m_Layer: 9
   m_Name: Fruit_Pear
-  m_TagString: Untagged
+  m_TagString: Fruit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -399,7 +400,7 @@ Transform:
   - {fileID: 5958125412067652790}
   - {fileID: 3402530512277394034}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -25.614, z: 0}
 --- !u!135 &4881471989282820191
 SphereCollider:
@@ -440,3 +441,24 @@ MonoBehaviour:
   animSpeed: 2
   enabledRotation: 0
   animChildOnlyMoving: {fileID: 0}
+--- !u!65 &2398541892775853306
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8326873016630378793}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.85223854, y: 0.8391285, z: 0.8527113}
+  m_Center: {x: -0.0051703188, y: 0.4079703, z: 0.008283641}
