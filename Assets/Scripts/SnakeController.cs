@@ -72,7 +72,9 @@ public class SnakeController : MonoBehaviour {
 
         if (other.CompareTag("Fruit"))
         {
+            GlobalManager.Instance.score--;
             Destroy(other.gameObject);
+            
         }
     }
 }
