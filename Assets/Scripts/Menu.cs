@@ -33,7 +33,7 @@ public class Menu : MonoBehaviour
         menu.SetActive(true);
     }
 
-    public void PlayGame()
+    public void StartLevel1()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("Level 1");
         GlobalManager.Instance.score = 10;

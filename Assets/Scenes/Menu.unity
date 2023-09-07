@@ -1600,7 +1600,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -750, y: 550}
+  m_AnchoredPosition: {x: -750, y: 450}
   m_SizeDelta: {x: 250, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &636978979
@@ -2172,13 +2172,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 268063182}
-        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: PlayGame
+      - m_Target: {fileID: 1547088271}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2307,8 +2307,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1165037184}
-  - component: {fileID: 1165037183}
   - component: {fileID: 1165037185}
+  - component: {fileID: 1165037186}
   m_Layer: 0
   m_Name: GlobalManager
   m_TagString: Untagged
@@ -2316,28 +2316,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1165037183
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1165037182}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f348ce35bde75c24390adfd0c204215c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  level1Objects: []
-  level2Objects: []
-  level3Objects: []
-  level4Objects: []
-  level5Objects: []
-  level6Objects: []
-  level7Objects: []
-  level8Objects: []
-  level9Objects: []
-  level10Objects: []
 --- !u!4 &1165037184
 Transform:
   m_ObjectHideFlags: 0
@@ -2366,9 +2344,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
-  appleScore: 1
-  pearScore: 2
-  orangeScore: 3
+  curentLevel: 0
+  Level2Objects: {fileID: 0}
+--- !u!114 &1165037186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165037182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f348ce35bde75c24390adfd0c204215c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Level1: {fileID: 966992933}
+  Level2: {fileID: 1754970163}
+  Level3: {fileID: 1699222577}
+  Level4: {fileID: 1900819645}
+  Level5: {fileID: 2077106129}
+  Level6: {fileID: 1808134932}
+  Level7: {fileID: 1341473749}
+  Level8: {fileID: 1483113158}
+  Level9: {fileID: 1706682506}
+  Level10: {fileID: 906602789}
 --- !u!1 &1341473747
 GameObject:
   m_ObjectHideFlags: 0
