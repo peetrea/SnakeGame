@@ -31,7 +31,6 @@ public class GlobalManager : MonoBehaviour
 
             LoadGameData();
         }
-        scoreDisplay = FindObjectOfType<ScoreDisplay>();
     }
 
     public void GoToMenu()

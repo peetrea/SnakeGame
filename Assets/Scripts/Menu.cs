@@ -5,9 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
+    private TotalScore totalScore;
     public GameObject menu;
     public GameObject levelSelection;
     public GameObject settings;
+    void Start()
+    {
+        totalScore = FindObjectOfType<TotalScore>();
+        
+    }
+    void Update()
+    {
+        totalScore.UpdateTotalScoreText();
+    }
 
     public void OpenLevelSelection()
     {
@@ -18,6 +28,7 @@ public class Menu : MonoBehaviour
     public void CloseLevelSelection()
     {
         levelSelection.SetActive(false);
+        settings.SetActive(false);
         menu.SetActive(true);
     }
 

@@ -349,6 +349,7 @@
 "Assets/Scripts/Menu.cs"
 "Assets/Scripts/ScoreDisplay.cs"
 "Assets/Scripts/SnakeController.cs"
+"Assets/Scripts/TotalScore.cs"
 "Assets/SimpleEnviroment/Scripts/BasicAnimator.cs"
 "Assets/SimpleEnviroment/Scripts/SceneManager.cs"
 "Assets/SimpleEnviroment/Scripts/Storage.cs"
