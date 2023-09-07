@@ -79,16 +79,19 @@ public class SnakeController : MonoBehaviour {
         if (other.CompareTag("Apple"))
         {
             GlobalManager.Instance.score -= appleScore;
+            GlobalManager.Instance.totalScore += appleScore;
             Destroy(other.gameObject);
         }
         if (other.CompareTag("Pear"))
         {
             GlobalManager.Instance.score -= pearScore;
+            GlobalManager.Instance.totalScore += pearScore;
             Destroy(other.gameObject);
         }
         if (other.CompareTag("Orange"))
         {
             GlobalManager.Instance.score -= orangeScore;
+            GlobalManager.Instance.totalScore += orangeScore;
             Destroy(other.gameObject);
         }
     }

@@ -8,8 +8,9 @@ public class GlobalManager : MonoBehaviour
 {
     public static GlobalManager Instance { get; private set; }
     public int score;
+    public int totalScore;
     public int curentLevel;
-    public int progres = 1;
+    public int progres;
     private ScoreDisplay scoreDisplay;
 
     private void Awake()
@@ -34,8 +35,7 @@ public class GlobalManager : MonoBehaviour
     }
     private void Update()
     {
-        Debug.Log("curentLevel " + curentLevel);
-        Debug.Log("progres " + progres);
+        Debug.Log(totalScore);
 
     }
 }
