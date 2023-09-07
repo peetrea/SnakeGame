@@ -21,7 +21,6 @@ public class GameplayManager : MonoBehaviour
         scoreDisplay.UpdateScoreText();
         FinishLevel();
         SwitchPause();
-        Debug.Log(Time.timeScale);
     }
     public void FinishLevel()
     {
