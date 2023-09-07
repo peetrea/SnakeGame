@@ -14,6 +14,7 @@ public class GameplayManager : MonoBehaviour
     {
         scoreDisplay = FindObjectOfType<ScoreDisplay>();
         SetScore();
+        ResumeGame();
     }
 
     void Update()
@@ -36,7 +37,7 @@ public class GameplayManager : MonoBehaviour
         WinPanel.SetActive(true);
         if (GlobalManager.Instance.curentLevel >= GlobalManager.Instance.progres)
         {
-            GlobalManager.Instance.progres = GlobalManager.Instance.curentLevel + 1;
+            GlobalManager.Instance.progres = GlobalManager.Instance.curentLevel;
         }
     }
     public void ShowLosePanel()
@@ -60,6 +61,7 @@ public class GameplayManager : MonoBehaviour
     }
     public void PauseGame()
     {
+        Debug.Log("apelled");
         Time.timeScale = 0f;
         isGamePaused = true;
     }
@@ -117,6 +119,7 @@ public class GameplayManager : MonoBehaviour
     }
     public void NextLevel()
     {
+        Time.timeScale = 1f;
         switch(GlobalManager.Instance.curentLevel)
         {
             case 1:
