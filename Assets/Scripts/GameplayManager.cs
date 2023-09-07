@@ -8,6 +8,7 @@ public class GameplayManager : MonoBehaviour
     public GameObject WinPanel;
     public GameObject LosePanel;
     public GameObject PausePanel;
+    private bool isGamePaused = false;
     void Start()
     {
         scoreDisplay = FindObjectOfType<ScoreDisplay>();
@@ -17,6 +18,7 @@ public class GameplayManager : MonoBehaviour
     {
         scoreDisplay.UpdateScoreText();
         FinishLevel();
+        SwitchPause();
     }
     public void FinishLevel()
     {
@@ -31,12 +33,39 @@ public class GameplayManager : MonoBehaviour
     {
         WinPanel.SetActive(true);
     }
-    private void ShowLosePanel()
+    public void ShowLosePanel()
     {
         LosePanel.SetActive(true);
     }
-    private void PauseGame()
+    public void SwitchPause()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            if(!isGamePaused)
+            {
+                PauseGame();
+                PausePanel.SetActive(true);
+            }
+            else
+            {
+                ResumeGame();
+            }
+        }
+    }
+    public void PauseGame()
     {
         Time.timeScale = 0f;
+        isGamePaused = true;
+    }
+    public void ResumeGame()
+    {
+        Time.timeScale = 1f;
+        isGamePaused = false;
+        PausePanel.SetActive(false);
+    }
+    public void BackToMenu()
+    {
+        GlobalManager.Instance.GoToMenu();
+        ResumeGame();
     }
 }

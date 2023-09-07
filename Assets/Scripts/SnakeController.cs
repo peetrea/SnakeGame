@@ -12,6 +12,7 @@ public class SnakeController : MonoBehaviour {
     public int appleScore;
     public int pearScore;
     public int orangeScore;
+    private GameplayManager gameplayManager;
 
     // References
     public GameObject BodyPrefab;
@@ -22,6 +23,7 @@ public class SnakeController : MonoBehaviour {
 
     void Start() 
     {
+        gameplayManager = FindObjectOfType<GameplayManager>();
         GrowSnake();
         GrowSnake();
         GrowSnake();
@@ -70,7 +72,8 @@ public class SnakeController : MonoBehaviour {
     {
         if (other.CompareTag("Obstacles"))
         {
-            
+            gameplayManager.PauseGame();
+            gameplayManager.ShowLosePanel();
         }
 
         if (other.CompareTag("Apple"))
