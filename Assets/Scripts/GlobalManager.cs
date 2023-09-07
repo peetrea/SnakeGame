@@ -25,4 +25,11 @@ public class GlobalManager : MonoBehaviour
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("Menu");
     }
+
+    public void RestartCurrentScene()
+    {
+        // currentScene = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+
+        UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+    }
 }
