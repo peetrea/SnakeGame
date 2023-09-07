@@ -47,7 +47,7 @@ public class LevelManager : MonoBehaviour
         {
             LoadLevel("Level 5");
             GlobalManager.Instance.curentLevel = 5;
-            GlobalManager.Instance.score = 20;
+            GlobalManager.Instance.score = 30;
         });
         Level6.onClick.AddListener(() =>
         {
@@ -65,19 +65,19 @@ public class LevelManager : MonoBehaviour
         {
             LoadLevel("Level 8");
             GlobalManager.Instance.curentLevel = 8;
-            GlobalManager.Instance.score = 20;
+            GlobalManager.Instance.score = 30;
         });
         Level9.onClick.AddListener(() =>
         {
             LoadLevel("Level 9");
             GlobalManager.Instance.curentLevel = 9;
-            GlobalManager.Instance.score = 20;
+            GlobalManager.Instance.score = 30;
         });
         Level10.onClick.AddListener(() =>
         {
             LoadLevel("Level 10");
             GlobalManager.Instance.curentLevel = 10;
-            GlobalManager.Instance.score = 20;
+            GlobalManager.Instance.score = 40;
         });
     }
     private void LoadLevel(string levelName)

@@ -70,7 +70,7 @@ public class SnakeController : MonoBehaviour {
     {
         if (other.CompareTag("Obstacles"))
         {
-            Debug.LogError("GameOver");
+            
         }
 
         if (other.CompareTag("Apple"))
@@ -87,10 +87,6 @@ public class SnakeController : MonoBehaviour {
         {
             GlobalManager.Instance.score -= orangeScore;
             Destroy(other.gameObject);
-        }
-        if(GlobalManager.Instance.score <= 0)
-        {
-            Debug.LogError("WIN");
         }
     }
 }
