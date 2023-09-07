@@ -9,6 +9,7 @@ public class GlobalManager : MonoBehaviour
     public static GlobalManager Instance { get; private set; }
     public int score;
     public int curentLevel;
+    public int progres = 1;
     private ScoreDisplay scoreDisplay;
 
     private void Awake()
@@ -29,7 +30,12 @@ public class GlobalManager : MonoBehaviour
     public void RestartCurrentScene()
     {
         // currentScene = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
-
         UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+    }
+    private void Update()
+    {
+        Debug.Log("curentLevel " + curentLevel);
+        Debug.Log("progres " + progres);
+
     }
 }

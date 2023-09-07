@@ -13,6 +13,7 @@ public class GameplayManager : MonoBehaviour
     void Start()
     {
         scoreDisplay = FindObjectOfType<ScoreDisplay>();
+        SetScore();
     }
 
     void Update()
@@ -20,6 +21,7 @@ public class GameplayManager : MonoBehaviour
         scoreDisplay.UpdateScoreText();
         FinishLevel();
         SwitchPause();
+        Debug.Log(Time.timeScale);
     }
     public void FinishLevel()
     {
@@ -33,6 +35,10 @@ public class GameplayManager : MonoBehaviour
     private void ShowWinPanel()
     {
         WinPanel.SetActive(true);
+        if (GlobalManager.Instance.curentLevel >= GlobalManager.Instance.progres)
+        {
+            GlobalManager.Instance.progres = GlobalManager.Instance.curentLevel + 1;
+        }
     }
     public void ShowLosePanel()
     {
@@ -74,6 +80,42 @@ public class GameplayManager : MonoBehaviour
         GlobalManager.Instance.RestartCurrentScene();
         ResumeGame();
     }
+    private void SetScore()
+    {
+        switch (GlobalManager.Instance.curentLevel)
+        {
+            case 1:
+                GlobalManager.Instance.score = 10;
+                break;
+            case 2:
+                GlobalManager.Instance.score = 10;
+                break;
+            case 3:
+                GlobalManager.Instance.score = 20;
+                break;
+            case 4:
+                GlobalManager.Instance.score = 20;
+                break;
+            case 5:
+                GlobalManager.Instance.score = 30;
+                break;
+            case 6:
+                GlobalManager.Instance.score = 20;
+                break;
+            case 7:
+                GlobalManager.Instance.score = 20;
+                break;
+            case 8:
+                GlobalManager.Instance.score = 30;
+                break;
+            case 9:
+                GlobalManager.Instance.score = 30;
+                break;
+            case 10:
+                GlobalManager.Instance.score = 40;
+                break;
+        }
+    }
     public void NextLevel()
     {
         switch(GlobalManager.Instance.curentLevel)
@@ -81,55 +123,55 @@ public class GameplayManager : MonoBehaviour
             case 1:
             LoadLevel("Level 2");
             GlobalManager.Instance.curentLevel = 2;
-            GlobalManager.Instance.score = 10;
+            // GlobalManager.Instance.score = 10;
             ResumeGame();
             break;
             case 2:
             LoadLevel("Level 3");
             GlobalManager.Instance.curentLevel = 3;
-            GlobalManager.Instance.score = 10;
+            // GlobalManager.Instance.score = 10;
             ResumeGame();
             break;
             case 3:
             LoadLevel("Level 4");
             GlobalManager.Instance.curentLevel = 4;
-            GlobalManager.Instance.score = 10;
+            // GlobalManager.Instance.score = 10;
             ResumeGame();
             break;
             case 4:
             LoadLevel("Level 5");
             GlobalManager.Instance.curentLevel = 5;
-            GlobalManager.Instance.score = 10;
+            // GlobalManager.Instance.score = 10;
             ResumeGame();
             break;
             case 5:
             LoadLevel("Level 6");
             GlobalManager.Instance.curentLevel = 6;
-            GlobalManager.Instance.score = 10;
+            // GlobalManager.Instance.score = 10;
             ResumeGame();
             break;
             case 6:
             LoadLevel("Level 7");
             GlobalManager.Instance.curentLevel = 7;
-            GlobalManager.Instance.score = 10;
+            // GlobalManager.Instance.score = 10;
             ResumeGame();
             break;
             case 7:
             LoadLevel("Level 8");
             GlobalManager.Instance.curentLevel = 8;
-            GlobalManager.Instance.score = 10;
+            // GlobalManager.Instance.score = 10;
             ResumeGame();
             break;
             case 8:
             LoadLevel("Level 9");
             GlobalManager.Instance.curentLevel = 9;
-            GlobalManager.Instance.score = 10;
+            // GlobalManager.Instance.score = 10;
             ResumeGame();
             break;
             case 9:
             LoadLevel("Level 10");
             GlobalManager.Instance.curentLevel = 10;
-            GlobalManager.Instance.score = 10;
+            // GlobalManager.Instance.score = 10;
             ResumeGame();
             break;
         }

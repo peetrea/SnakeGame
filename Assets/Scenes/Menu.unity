@@ -2345,6 +2345,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 10
   curentLevel: 0
+  progres: 1
 --- !u!114 &1165037186
 MonoBehaviour:
   m_ObjectHideFlags: 0
