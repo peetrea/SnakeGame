@@ -7,7 +7,6 @@ public class GlobalManager : MonoBehaviour
     public static GlobalManager Instance { get; private set; }
     public int score;
     public int curentLevel;
-    public GameObject Level2Objects;
 
     private void Awake()
     {

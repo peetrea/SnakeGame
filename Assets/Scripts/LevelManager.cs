@@ -30,7 +30,6 @@ public class LevelManager : MonoBehaviour
             LoadLevel("Level 2");
             GlobalManager.Instance.curentLevel = 2;
             GlobalManager.Instance.score = 10;
-            LevelObstacles.Instance.Level2Objects.SetActive(true);
         });
         Level3.onClick.AddListener(() =>
         {
@@ -44,7 +43,7 @@ public class LevelManager : MonoBehaviour
             GlobalManager.Instance.curentLevel = 4;
             GlobalManager.Instance.score = 20;
         });
-        Level45.onClick.AddListener(() =>
+        Level5.onClick.AddListener(() =>
         {
             LoadLevel("Level 5");
             GlobalManager.Instance.curentLevel = 5;
