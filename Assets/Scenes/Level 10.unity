@@ -1855,7 +1855,7 @@ GameObject:
   - component: {fileID: 135596333}
   m_Layer: 8
   m_Name: 3x2_v2(Clone) (1)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3324,7 +3324,7 @@ GameObject:
   - component: {fileID: 257775186}
   m_Layer: 8
   m_Name: 3x2_v2(Clone)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4121,7 +4121,7 @@ GameObject:
   - component: {fileID: 313107000}
   m_Layer: 8
   m_Name: 5x2_v1(Clone)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15301,7 +15301,7 @@ GameObject:
   - component: {fileID: 1046954137}
   m_Layer: 8
   m_Name: 3x1_v1(Clone)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21954,7 +21954,7 @@ GameObject:
   - component: {fileID: 1532721468}
   m_Layer: 8
   m_Name: 2x1_v1(Clone)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26965,7 +26965,7 @@ GameObject:
   - component: {fileID: 1917070436}
   m_Layer: 8
   m_Name: 2x2_v1(Clone)
-  m_TagString: Untagged
+  m_TagString: Obstacles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
